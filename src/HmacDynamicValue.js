@@ -3,7 +3,7 @@ import { SignatureGenerator } from "./SignatureGenerator.js";
 class HmacDynamicValue {
   static identifier = "com.strongerfastermonkey.HmacDynamicValue";
   static title = "HMAC Signed Payload Dynamic Value";
-  static help = "https://strongerfastermonkey.com/paw/extensions/";
+  static help = "https://github.com/jriverac/HmacDynamicValue/blob/main/README.md";
   static inputs = [
     DynamicValueInput("secret", "Secret", "SecureValue", {
       placeholder: "Your secret?",
